@@ -1,0 +1,32 @@
+// COLORS
+$color-primary-super-light: #90a4ae;
+$color-primary-light: #455a64;
+$color-primary: #37474f;
+$color-primary-dark: #263238;
+
+$color-black: #000;
+$color-white: #fff;
+
+// FONT
+$primary-font-family: 'Comic Neue', cursive;
+$secondary-font-family: 'Space Mono', monospace;
+$tertiary-font-family: 'Bungee Shade', cursive;
+$font-size-xsmall: 1.2rem;
+$font-size-small: 1.5rem;
+$font-size-medium: 2.1rem;
+$font-size-large: 3.3rem;
+$font-size-xlarge: 4.5rem;
+$font-size-xxlarge: 5.4rem;
+
+// RESPONSIVE BREAKPOINTS
+// 1em = 16px
+$bp-largest: 75em;      // 1200px
+$bp-large: 56.25em;     // 900px
+$bp-medium: 37.5em;     // 600px
+$bp-small: 28.125em;    // 450px
+
+// COSMETICS
+$br: 1rem;  // border radius
+$bs-large: 0 .3rem 1.2rem rgba($color-black, .3);   // box shadow
+$bs-small: 0 .3rem .3rem rgba($color-black, .3);    // box shadow
+$bi-subtle: linear-gradient(to left, rgba($color-primary-light, .1), rgba($color-primary-dark, .1));    // background image 

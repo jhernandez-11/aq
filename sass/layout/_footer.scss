@@ -1,0 +1,37 @@
+.footer {
+    grid-column: 1 / -1;
+    grid-row: 3 / span 1;
+    background-color: $color-white;
+    box-shadow: $bs-large;
+    border-radius: 3px 3px 0 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__2__cr {
+        font-size: $font-size-small;
+    }
+
+    &__2__tc {
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        &:active {
+            transform: scale(.96);
+        }
+    }
+
+    &__2__text {
+        font-size: $font-size-small;
+        color: $color-primary-light;
+        transition: inherit;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+}

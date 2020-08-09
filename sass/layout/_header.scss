@@ -1,0 +1,49 @@
+.header {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    background-color: $color-white;
+    border-radius: 0 0 3px 3px;
+    box-shadow: $bs-large;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-family: $tertiary-font-family;
+        font-size: $font-size-xlarge;
+        padding: 4.5rem 3rem;
+        color: $color-black;
+        text-shadow: none;
+        cursor: cell;
+        transition: all .6s;
+
+        &:hover,
+        &:active {
+            text-shadow: -1rem 1rem $color-primary-light, 1rem -1rem $color-primary;
+            transform: scale(1.02);
+        }
+    }
+
+    &__login {
+        &--icon {
+            font-size: $font-size-xlarge;
+            margin-right: 3rem;
+            border-radius: 1rem;
+            color: $color-primary;
+            transition: all .3s;
+    
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0 .3rem .6rem rgba($color-black, .3), -.6rem -.6rem rgba($color-black, .3);
+                color: $color-primary-dark;
+            }
+
+            &:active {
+                transform: scale(.96);
+                box-shadow: $bs-small;
+            }
+        }
+    }
+}
